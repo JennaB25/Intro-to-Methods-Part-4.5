@@ -9,16 +9,16 @@ namespace Intro_to_Methods_Part_4._5
     {
         static void Main(string[] args)
         {
-            int inputX;
-            int inputY;
+            //int inputX;
+            //int inputY;
             Console.WriteLine("Do you want to draw some pictures?");
             Console.ReadLine();
-            Console.WriteLine("Select a position for the drawings");
-            Console.WriteLine("X - Position:");
-            inputX = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Y - Position:");
-            inputY = Convert.ToInt32(Console.ReadLine());
-            Console.SetCursorPosition(inputX, inputY);
+            //Console.WriteLine("Select a position for the drawings");
+            //Console.WriteLine("X - Position:");
+            //inputX = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Y - Position:");
+            //inputY = Convert.ToInt32(Console.ReadLine());
+            //Console.SetCursorPosition(inputX, inputY);
                 drawCow();
                 drawPig();
                 drawBird();
@@ -31,8 +31,8 @@ namespace Intro_to_Methods_Part_4._5
         //Part One: ASCII Art
         public static void drawCow()
         {
-            var (x, y) = Console.GetCursorPosition();
-            Console.SetCursorPosition(x, y);
+            //var (x, y) = Console.GetCursorPosition();
+            //Console.SetCursorPosition(x, y);
             Console.WriteLine("((...))");            
             Console.WriteLine("( O O )");            
             Console.WriteLine(" [   ] ");           
@@ -59,7 +59,7 @@ namespace Intro_to_Methods_Part_4._5
             Console.WriteLine("  \\|");
             Console.WriteLine("   |");
             Console.WriteLine("");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
         }
         //Part Two: Knock Knock Joke
         public static void knockKnockJoke()
